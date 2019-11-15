@@ -3,6 +3,7 @@
 //blocks should include time, user input, and a save button
 //save button should save data to local storage
 //include document.ready
+$(".currentDay").text(moment().format("dddd, MMMM Do"));
 $(document).ready(function(){
     var hours=moment().hours(); // Number
     var min=9
